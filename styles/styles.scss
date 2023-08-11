@@ -311,7 +311,7 @@ section{
                         width: 60%;
                     }
                     .python{
-                        width: 75%;
+                        width: 85%;
                     }
                     .cplus{
                         width: 60%;
@@ -472,7 +472,7 @@ section{
 
 //Linkedin Section
 .linkedins{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;

@@ -37,10 +37,15 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--color-white);
   overflow: hidden;
   font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width: 600px) {
+  header {
+    min-height: 100vh;
+  }
 }
 
 section {
@@ -85,16 +90,7 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -314,7 +310,10 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 75%;
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .cplus {
+  width: 60%;
 }
 
 .stat-title {
@@ -464,7 +463,7 @@ section {
 }
 
 .linkedins {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
