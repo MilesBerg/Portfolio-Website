@@ -160,7 +160,7 @@ section{
             left: 0;
             top: 0;
             z-index: -1;
-            clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+            clip-path: polygon(0 0, 46% 0, 80% 100%, 0% 100%);
         }
         .image{
             border-radius: var(--br-sm-2);
@@ -472,7 +472,7 @@ section{
 
 //Linkedin Section
 .linkedins{
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
