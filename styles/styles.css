@@ -301,19 +301,19 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 85%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 80%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
-  width: 60%;
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 85%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .cplus {
-  width: 60%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 80%;
 }
 
 .stat-title {
