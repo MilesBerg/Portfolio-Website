@@ -467,6 +467,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin-top: 3rem;
+  
 }
 .linkedins .linkedin {
   position: relative;
@@ -681,6 +682,13 @@ section {
   font-size: 6.3rem;
 }
 
+@media screen and (max-width: 1425px) {
+  .linkedins {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0;
@@ -736,10 +744,7 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
-  .linkedin {
-    grid-template-columns: 1fr;
-    padding-bottom: 6rem;
-  }
+  
   .contact-content-con {
     flex-direction: column;
   }
